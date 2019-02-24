@@ -45,3 +45,11 @@ Notes:
     Its is necessary to avoid error with different android support version. FB uses 27.0.2
 
 3. Do not use a LoginButton from the instruction, use a `AuthFbInteractor`
+
+## Google
+
+https://developers.google.com/identity/sign-in/android/start-integrating
+
+Notes:
+
+1. Should try without a creation of the app in console.
