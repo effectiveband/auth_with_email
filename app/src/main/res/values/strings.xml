@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">AuthSample</string>
+
+    <!--VK Stuff-->
     <integer name="com_vk_sdk_AppId">6873961</integer>
+
+    <!--Facebook Stuff-->
+    <string name="facebook_app_id">331539544146598</string>
+    <string name="fb_login_protocol_scheme">fb331539544146598</string>
+
 </resources>
