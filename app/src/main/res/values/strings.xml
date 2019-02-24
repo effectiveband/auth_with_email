@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AuthSample</string>
+    <integer name="com_vk_sdk_AppId">6873961</integer>
+</resources>
