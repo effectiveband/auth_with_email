@@ -11,7 +11,7 @@ class AuthVkInteractor(private val vkAuthEmailCallback: VKAuthEmailCallback? = n
 
     companion object {
         private const val EMAIL_KEY = "email"
-        private const val NO_EMAIL_ERROR = 11
+        internal const val NO_EMAIL_ERROR = 11
     }
 
     fun authVK(activity: Activity) {

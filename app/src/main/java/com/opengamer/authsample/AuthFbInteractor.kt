@@ -16,9 +16,9 @@ class AuthFbInteractor(private val fbAuthEmailCallback: FbAuthEmailCallback? = n
     companion object {
         private const val EMAIL_PERMISSION_STRING = "email"
 
-        private const val CANCELED_ERROR = 1
-        private const val EXCEPTION_ERROR = 2
-        private const val EXCEPTION_DURING_GETTING_EMAIL_ERROR = 3
+        internal const val CANCELED_ERROR = 1
+        internal const val EXCEPTION_ERROR = 2
+        internal const val EXCEPTION_DURING_GETTING_EMAIL_ERROR = 3
     }
 
     private val callbackManager = CallbackManager.Factory.create()
